@@ -7,7 +7,15 @@
     width:105px;
     border-radius:2px;
     cursor:pointer;
+    transition:0.15s;
     margin-right: 8px;
+    
+  }
+  .subscribe-button:hover{
+    opacity:0.8;
+  }
+  .subscribe-button:active{
+    opacity:0.5;
   }
   .join-button{
     background-color:white;
@@ -19,6 +27,14 @@
     border-color:rgb(41, 118, 211);
     cursor:pointer;
     margin-right: 8px;
+    transition:0.15s, color 0.15s;
+  }
+  .join-button:hover{
+   background-color:rgb(41, 118, 211);
+   color:white;
+  }
+  .join-button:active{
+    opacity:0.7;
   }
   .Tweet-button{
     color:white;
@@ -30,6 +46,10 @@
     font-weight:bold;
     font-size:14px;
     cursor:pointer;
+    transition: 0.15s;
+  }
+  .Tweet-button:hover{
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.15);
   }
   .uber-button{
     border:none;
@@ -40,6 +60,10 @@
     font-size: 12px;
     margin-left:8px;
     cursor:pointer;
+    transition: 0.15s;
+  }
+  .uber-button:hover{
+    opacity:0.8;
   }
   .amazon-button{
     color:black;
@@ -52,6 +76,10 @@
     font-weight:400;
     margin: left 8px;
     cursor:pointer;
+    transition: 0.15s;
+  }
+  .amazon-button:hover{
+    background-color:rgb(245, 206, 12) ;
   }
   .github-button{
    color:white;
@@ -63,6 +91,10 @@
    border:none;
    border-radius: 5px;
    font-weight:bold;
+   transition: 0.15s;
+  }
+  .github-button:hover{
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.15);
   }
   .bootstrap-button1{
     color:white;
@@ -75,6 +107,10 @@
     height:36px;
     width:102px;
     font-size:12.5px;
+    transition: 0.15s;
+  }
+  .bootstrap-button1:hover{
+    opacity: 0.8;
   }
   .bootstrap-2{
     color:rgb(108, 117, 125);
@@ -88,10 +124,18 @@
     border-color:rgb(108, 117, 125);
     border-radius:4px;
     box-shadow: none;
+    transition: 0.15s;
+  }
+  .bootstrap-2:hover{
+   background-color:rgb(108, 117, 125);
+   color:white;
+  }
+  .bootstrap-2:active{
+    opacity:0.7;
   }
   .linkedin-button1{
     color:white;
-    background-color:rgba(10,102, 194);
+    background-color:rgb(10,102, 194);
     height:36px;
     width: 215px;
     border:none;
@@ -100,6 +144,9 @@
     margin-left:8px;
     font-weight:bold;
     font: size 30px;;
+  }
+  .linkedin-button1:hover{
+    background-color:rgb(2, 86, 170);
   }
   .linkedin-button2{
     color:rgb(10,102,194);
@@ -113,6 +160,12 @@
     height:36px;
     width:80px;
     font-size:17px;
+    transition: 0.15s;
+    box-shadow: none;
+  }
+  .linkedin-button2:hover{
+    background-color: rgb(233, 238, 241);
+    border-width:2px;
   }
 </style>
 <p>YouTube - <button class="subscribe-button">
